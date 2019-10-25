@@ -227,7 +227,6 @@ for r in range(2,sheet.max_row+1):
         value_score="[value='"+trueorfalse(i,list_score[i])+"']"
         input_score="[name='input16"+(str(int((i-146)/2)).rjust(2,'0'))+"']"
         result(score,i)
-    print(list_score[1]+'-'+typ_jd+'已完成录入')
     elif typ_jd=='食品生产':
       if 0<i<9:
         name_score="[name='score01"+(str(int(i/2)).rjust(2,'0'))+"']"
@@ -284,7 +283,6 @@ for r in range(2,sheet.max_row+1):
         value_score="[value='"+trueorfalse(i,list_score[i])+"']"
         input_score="[name='input11"+(str(int((i-104)/2)).rjust(2,'0'))+"']"
         result(score,i)
-    print(list_score[1]+'-'+typ_jd+'已完成录入')
     elif typ_jd=='饮用水供应':
       if 0<i<9:
         name_score="[name='score01"+(str(int(i/2)).rjust(2,'0'))+"']"
@@ -336,7 +334,6 @@ for r in range(2,sheet.max_row+1):
         value_score="[value='"+trueorfalse(i,list_score[i])+"']"
         input_score="[name='input10"+(str(int((i-64)/2)).rjust(2,'0'))+"']"
         result(score,i)
-    print(list_score[1]+'-'+typ_jd+'已完成录入')
     elif typ_jd=='食品销售':
       if 0<i<9:
         name_score="[name='score01"+(str(int(i/2)).rjust(2,'0'))+"']"
@@ -368,7 +365,6 @@ for r in range(2,sheet.max_row+1):
         value_score="[value='"+trueorfalse(i,list_score[i])+"']"
         input_score="[name='input06"+(str(int((i-46)/2)).rjust(2,'0'))+"']"
         result(score,i)
-    print(list_score[1]+'-'+typ_jd+'已完成录入')
     elif typ_jd=='住宿业':
       if 0<i<9:
         name_score="[name='score01"+(str(int(i/2)).rjust(2,'0'))+"']"
@@ -476,6 +472,8 @@ for r in range(2,sheet.max_row+1):
         value_score="[value='"+trueorfalse(i,list_score[i])+"']"
         input_score="[name='input09"+(str(int((i-52)/2)).rjust(2,'0'))+"']"
         result(score,i)
+  print(list_score[1]+'-'+typ_jd+'已完成录入')
+
       
 
 
